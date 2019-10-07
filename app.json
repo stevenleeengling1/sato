@@ -2,7 +2,7 @@
   "name": " bot",
   "description": "The server side for Bot.",
   "image": "heroku/python",
-  "repository": "https://https://github.com/stevenleeengling1/sato",
+  "repository": "https://github.com/stevenleeengling1/sato",
   "keywords": ["python", "flask" ],
   "addons": [ "heroku-postgresql" ],
   "environments": {
