@@ -8,7 +8,7 @@ from custom_dict import InsensitiveDictReader
 
 app = Flask(__name__)
 #port = 5000
-port = int(os.environ["PORT"])
+port = int(os.environ["PATH"])
 print(port)
 
 
