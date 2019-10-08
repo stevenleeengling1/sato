@@ -4,7 +4,7 @@
   "image": "heroku/python",
   "repository": "https://github.com/stevenleeengling1/sato",
   "keywords": ["python", "flask" ],
-  "addons": [ "heroku-postgresql" ],
+ # "addons": [ "heroku-postgresql" ],
   "environments": {
     "test": {
       "scripts": {
