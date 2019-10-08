@@ -8,7 +8,7 @@ from custom_dict import InsensitiveDictReader
 
 app = Flask(__name__)
 #port = 5000
-port = int(os.environ["PATH"])
+port = int(os.environ["PORT"])
 print(port)
 
 
@@ -50,7 +50,7 @@ def index():
                           status=200,
                           replies=[{
                               'type': 'text',
-                              'content': (Name)
+                              'content': Name
                                   }]
                           )
 
